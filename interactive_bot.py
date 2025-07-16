@@ -13,18 +13,25 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [[InlineKeyboardButton("Generate", callback_data='generate')]]
     markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
-        "👋 Welcome! Click 'Generate' to learn a new Russian word.",
+        "👋 Welcome! Click 'Generate' to learn a new word.",
         reply_markup=markup
     )
 
 async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
+
     word = pop_random_word()
-    if word:
-        await query.edit_message_text(text=word)
-    else:
-        await query.edit_message_text(text="❌ No more words left!")
+    text = word if word else "❌ No more words left!"
+
+    keyboard = [[InlineKeyboardButton("Generate Another", callback_data='generate')]]
+    markup = InlineKeyboardMarkup(keyboard)
+
+    await context.bot.send_message(
+        chat_id=query.message.chat_id,
+        text=text,
+        reply_markup=markup
+    )
 
 def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()

@@ -1,3 +1,418 @@
 word,description
-учитель,Teacher - someone who helps others learn.
-город,City - a large and permanent settlement.
+анализировать,To analyze - to examine in detail in order to understand or interpret.
+артист,Artist - a person skilled in one of the fine arts.
+библиотека,Library - a collection of books and other resources.
+восхищать,To admire - to regard with wonder or approval.
+вдохновлять,To inspire - to fill someone with the urge or ability to do something.
+гордиться,To pride - to take satisfaction in one's achievements or qualities.
+демонстрировать,To demonstrate - to show or explain how something works.
+еще,More - a greater amount or degree.
+запрещать,To prohibit - to formally forbid.
+изменять,To change - to make something different.
+инвестировать,To invest - to allocate money in something for potential gain.
+критиковать,To criticize - to evaluate in a disapproving manner.
+модифицировать,To modify - to make changes to something.
+находить,To find - to discover something or someone.
+объяснять,To explain - to make something clear or understandable.
+определять,To define - to state the meaning or limits of something.
+показывать,To show - to allow someone to see something.
+предсказать,To predict - to say what will happen in the future.
+преобразовывать,To transform - to change in form or appearance.
+развивать,To develop - to grow or cause something to grow or improve.
+рекомендовать,To recommend - to suggest as being good or suitable.
+согласовывать,To coordinate - to bring different elements into harmony.
+смотреть,To observe - to look at something attentively.
+совершать,To commit - to perform or carry out an action.
+стимулировать,To stimulate - to encourage an increase in activity.
+терпеть,To endure - to suffer patiently without complaint.
+требовать,To demand - to ask for something forcefully.
+удовлетворять,To satisfy - to meet the needs or desires of someone.
+упрощать,To simplify - to make something easier to understand.
+усиливать,To strengthen - to make something more intense or powerful.
+формировать,To form - to create or develop something.
+хвалить,To praise - to express approval or admiration.
+экономить,To save - to keep something for future use.
+эмоциональный,Emotional - relating to a person's feelings.
+эволюция,Evolution - the gradual development of something.
+великолепный,Magnificent - impressively beautiful or grand.
+жестокий,Cruel - having a tendency to be unkind or harsh.
+загадочный,Mysterious - difficult to understand or explain.
+интуитивный,Intuitive - based on instinctive feelings rather than conscious reasoning.
+космический,Cosmic - relating to the universe or outer space.
+невероятный,Incredible - difficult to believe due to its rarity or significance.
+непобедимый,Invincible - impossible to defeat.
+объективный,Objective - not influenced by personal feelings or opinions.
+потенциальный,Potential - having the possibility to develop into something.
+продвинутый,Advanced - highly developed or skilled.
+реальный,Real - existing or occurring in reality.
+сверхъестественный,Supernatural - relating to phenomena beyond the natural world.
+сложный,Complex - consisting of many interconnected parts.
+совершенный,Perfect - free from any flaws or defects.
+технический,Technical - relating to a specific field of expertise.
+успешный,Successful - achieving desired outcomes.
+фантастический,Fantastic - extraordinary and often unreal.
+финансовый,Financial - relating to money and management.
+эксперт,Expert - a person who has extensive knowledge in a particular area.
+эрудированный,Erudite - having or showing great knowledge.
+юридический,Legal - relating to the law.
+абстракция,Abstraction - the concept of considering something apart from concrete realities.
+агрессия,Aggression - hostile or violent behavior towards others.
+анализ,Analysis - detailed examination of the components of something.
+архитектура,Architecture - the art or practice of designing buildings.
+бюджет,Budget - an estimate of income and expenditure for a set period.
+вдохновение,Inspiration - a sudden brilliant or creative idea.
+влияние,Influence - the capacity to have an effect on someone or something.
+воспоминания,Memories - recollections of past events.
+горизонт,Horizon - the line at which the earth's surface and the sky appear to meet.
+гуманитарный,Humanitarian - concerned with human welfare and social reform.
+деятельность,Activity - the condition in which something is happening or being done.
+демократия,Democracy - a system of government where people have the power to make decisions.
+дискриминация,Discrimination - unjust treatment based on different categories like race or gender.
+достижение,"Achievement - a thing done successfully with effort, skill, or courage."
+жизненный,Life - relating to or characteristic of living organisms.
+задержка,Delay - the action of postponing or deferring something.
+измерение,"Measurement - the action or process of determining the size, amount, or degree of something."
+исключение,Exclusion - the process of not including someone or something.
+качество,Quality - the standard of something as measured against other things.
+климат,Climate - the prevailing weather conditions in a region over time.
+коммуникация,Communication - the process of exchanging information.
+компетенция,Competence - the ability to do something successfully or efficiently.
+конкуренция,Competition - the activity or condition of competing.
+концепция,Concept - an abstract idea or a mental representation.
+культура,"Culture - the customs, beliefs, and social behaviors of a particular society."
+литература,"Literature - written works, especially those considered of superior or lasting artistic merit."
+менеджмент,Management - the process of dealing with or controlling things or people.
+методология,Methodology - a system of methods used in a particular area of study.
+мировоззрение,Worldview - a particular philosophy or perspective on life.
+модернизация,Modernization - the process of adapting something to modern needs.
+награда,Award - a prize or recognition given for an achievement.
+надежность,Reliability - the quality of being trustworthy or consistent.
+наука,Science - the systematic study of the structure and behavior of the physical and natural world.
+неопределенность,Uncertainty - the state of being uncertain or not knowing.
+новаторство,"Innovation - the act of introducing new ideas, methods, or products."
+образование,Education - the process of teaching or learning.
+объем,Volume - the amount of space occupied by a substance or object.
+общество,Society - a community of people living together and sharing traditions.
+опыт,Experience - knowledge or skill gained through participation or exposure.
+освежение,"Refreshment - a light drink or snack, often given to reinvigorate."
+осторожность,Caution - the practice of being careful to avoid danger or mistakes.
+параллель,Parallel - occurring at the same time or in a similar way.
+педагогика,Pedagogy - the method and practice of teaching.
+перспектива,Perspective - a particular attitude towards something or a way of regarding something.
+план,Plan - a detailed proposal for achieving a specific goal.
+позитив,Positive - expressing or involving optimism or affirmation.
+практика,Practice - the action of performing an activity regularly to improve.
+предпочтение,Preference - a greater liking for one alternative over others.
+предпринимательство,Entrepreneurship - the process of starting and operating a business.
+приоритет,Priority - something that is regarded as more important than others.
+проблема,Problem - a matter or situation regarded as unwelcome or harmful.
+психология,Psychology - the scientific study of the human mind and its functions.
+разнообразие,Diversity - the state of being diverse or having variety.
+реализация,Realization - the act of making something real or bringing it into effect.
+риск,Risk - the possibility of suffering harm or loss.
+сбор,Collection - the action of gathering things together.
+связь,Connection - the relationship or link between two or more things.
+система,System - a set of connected things or parts forming a complex whole.
+совет,Advice - guidance or recommendations concerning prudent future action.
+сотрудничество,Cooperation - the process of working together to achieve a common goal.
+способность,Ability - the possession of the means or skills to do something.
+средства,Means - methods or ways to achieve a particular goal.
+сравнение,Comparison - the act of evaluating two or more things against each other.
+содержание,Content - the subjects or topics covered in something.
+структура,Structure - the arrangement of parts or elements in a whole.
+сумма,Sum - the total amount resulting from addition.
+темп,Pace - the speed at which something happens.
+технология,Technology - the application of scientific knowledge for practical purposes.
+традиция,Tradition - the transmission of customs or beliefs from one generation to the next.
+труд,"Labor - work, especially physical work."
+устройство,Device - a machine or tool used for a specific task.
+участие,Participation - the action of taking part in something.
+фактор,Factor - an element that contributes to a result.
+философия,"Philosophy - the study of fundamental nature of knowledge, reality, and existence."
+характеристика,Characteristic - a feature or quality belonging typically to a person or thing.
+цель,Goal - an aim or desired result.
+ценность,Value - the regard that something is held to deserve.
+экономика,Economy - the system of production and distribution of goods and services.
+эффективность,Effectiveness - the degree to which something is successful in producing a desired result.
+абстракция,Abstraction - a concept or idea without a physical or concrete existence.
+активность,Activity - the state of being active or engaged in a task.
+аналитика,Analytics - the systematic computational analysis of data.
+антитеза,Antithesis - a contrast or opposition between two things.
+аппарат,Apparatus - a complex instrument or machine used for a specific purpose.
+аргумент,Argument - a reason or set of reasons given in support of an idea.
+ассоциация,Association - a connection or relationship between two or more things.
+безопасность,Security - the state of being free from danger or threat.
+беспокойство,Concern - a feeling of worry or unease.
+биография,Biography - a detailed description of a person's life.
+биология,Biology - the scientific study of life and living organisms.
+взаимодействие,Interaction - the reciprocal action or influence between two or more things.
+восприятие,Perception - the ability to interpret and make sense of sensory information.
+выполнение,Execution - the act of carrying out or performing a task or plan.
+глобализация,Globalization - the process by which businesses or other organizations develop international influence.
+гуманизм,Humanism - a belief system focusing on human values and the importance of individual dignity.
+деятельность,Activity - the state of being actively engaged in a task or enterprise.
+дистанция,Distance - the amount of space between two points.
+доказательство,Evidence - the available body of facts or information indicating whether a belief or proposition is true.
+долг,Debt - an amount of money owed by one party to another.
+долговечность,"Durability - the ability to withstand wear, pressure, or damage."
+ежедневный,Daily - occurring or done every day.
+занятие,Occupation - a job or profession.
+измерение,"Measurement - the process of determining the size, amount, or degree of something."
+институт,Institute - an organization or establishment dedicated to a particular cause or activity.
+истина,Truth - the state of being in accordance with fact or reality.
+категория,Category - a class or division of things regarded as having common characteristics.
+классификация,Classification - the action or process of classifying something according to shared qualities.
+коллекция,"Collection - a group of items gathered together, often for study or display."
+концентрация,Concentration - the action or power of focusing one's attention or mental effort.
+концепт,Concept - an abstract idea or a general notion.
+конфликт,"Conflict - a serious disagreement or argument, often a prolonged one."
+креативность,Creativity - the use of imagination or original ideas to create something.
+критерий,Criterion - a principle or standard by which something is judged or decided.
+культура,"Culture - the customs, habits, and beliefs of a group of people."
+механизм,Mechanism - a system of parts working together in a machine.
+метод,Method - a particular procedure for accomplishing something.
+молекула,Molecule - the smallest unit of a chemical compound that can exist by itself.
+модели,Models - simplified representations or simulations of systems or phenomena.
+модернизация,Modernization - the process of adapting something to modern needs or habits.
+награда,Award - a prize or recognition given for an achievement.
+независимость,Independence - the condition of being self-sufficient and free from outside control.
+обслуживание,Maintenance - the process of preserving or keeping something in good condition.
+определение,Definition - a statement that describes the meaning of a word or phrase.
+организация,Organization - a group of people working together in an organized way to achieve a goal.
+оценка,Evaluation - the process of assessing or judging the value or quality of something.
+планирование,Planning - the process of making plans for something.
+поиск,Search - the action of looking for something.
+познание,Cognition - the mental action or process of acquiring knowledge and understanding.
+потребность,Need - something essential or required for well-being or survival.
+практика,Practice - the repeated exercise of an activity to improve skill.
+проблема,Problem - a situation or issue requiring resolution or action.
+процесс,Process - a series of actions or steps taken to achieve a particular outcome.
+проект,Project - a planned undertaking or task with a specific goal.
+психология,Psychology - the scientific study of behavior and the mind.
+публикация,Publication - the act of making information available to the public.
+развитие,"Development - the process of growth, progress, or evolution."
+реализация,Realization - the act of making something real or bringing it into effect.
+риск,Risk - the possibility of harm or loss.
+система,System - a set of connected things or parts that work together as a whole.
+сознание,Consciousness - the state of being aware of and able to think about one's own existence.
+среда,Environment - the surrounding conditions or circumstances in which something exists or operates.
+судебный,Judicial - relating to courts of law or the administration of justice.
+суть,Essence - the intrinsic nature or indispensable quality of something.
+таблица,Table - an arrangement of data in rows and columns.
+теория,Theory - a system of ideas intended to explain something.
+тип,Type - a category of people or things that share common characteristics.
+технология,Technology - the application of scientific knowledge for practical purposes.
+традиция,"Tradition - the transmission of customs, beliefs, and practices from generation to generation."
+университет,University - an institution of higher education offering degrees and courses.
+управление,Management - the act or process of controlling or organizing something.
+успех,Success - the achievement of a goal or purpose.
+участие,Participation - the action of taking part in something.
+фактор,Factor - an element contributing to a particular result.
+функция,Function - the purpose or role that something serves.
+химия,Chemistry - the branch of science that deals with the substances of which matter is composed.
+экономика,Economy - the system of production and distribution of goods and services in a country or region.
+эффективность,Effectiveness - the degree to which something is successful in producing the desired result.
+эксперимент,Experiment - a scientific procedure undertaken to test a hypothesis.
+эксперт,Expert - a person with comprehensive knowledge or skill in a particular subject.
+эмоция,Emotion - a natural instinctive state of mind derived from one's circumstances.
+юриспруденция,Jurisprudence - the theory or philosophy of law.
+абстракция,Abstraction - the concept of separating ideas from specific examples.
+адаптация,Adaptation - the process of adjusting to new conditions.
+аккуратность,Accuracy - the quality or state of being correct or precise.
+алгоритм,Algorithm - a set of rules or steps for solving a problem.
+анализ,Analysis - the detailed examination of something in order to understand it.
+антиквариат,Antique - an object that is old and often valuable.
+аппарат,Apparatus - a complex machine or device used for a specific task.
+аргументация,Argumentation - the process of reasoning and presenting arguments to support a point.
+базис,Basis - the foundation or underlying support for an idea or system.
+баланс,Balance - the state of being in equilibrium or proper proportions.
+безопасность,Safety - the condition of being protected from harm or danger.
+бизнес,"Business - the activity of making, buying, and selling goods or services."
+биология,Biology - the science of life and living organisms.
+блокировка,Blocking - the act of preventing or restricting something from moving or functioning.
+взаимодействие,Interaction - the communication or action between two or more entities.
+вопрос,Question - a statement or inquiry seeking information.
+влияние,Influence - the power to have an effect on people or things.
+выполнение,Execution - the process of carrying out a plan or command.
+глобализация,Globalization - the process of increasing interconnectivity and interdependence among the world’s markets.
+граница,Boundary - a dividing line or limit.
+деятельность,Activity - the state of being involved in a particular task or action.
+диагностика,Diagnosis - the process of determining the nature of a problem or illness.
+документ,Document - a written or printed record that provides information.
+долг,Debt - the amount of money owed by one person or entity to another.
+доказательство,Proof - evidence or argument establishing the truth of something.
+экономика,"Economics - the branch of knowledge concerned with the production, consumption, and transfer of wealth."
+эффективность,Efficiency - the ability to accomplish a task with the least amount of effort or waste.
+жизнь,Life - the condition that distinguishes living organisms from inanimate objects.
+задание,Task - a piece of work or assignment to be completed.
+знание,"Knowledge - the information, understanding, and skills gained through experience."
+злоупотребление,Abuse - the improper use or treatment of something or someone.
+изменение,Change - the process of becoming different or altering in form.
+инновация,Innovation - the act of introducing new ideas or methods.
+интерпретация,Interpretation - the action of explaining the meaning of something.
+исследование,Research - the process of discovering new information or solving a problem.
+капитал,Capital - wealth or assets used to produce more wealth.
+класс,Class - a group of people or things sharing common characteristics.
+клиент,Client - a person or organization that receives a service from a professional.
+коллектив,Team - a group of people working together to achieve a common goal.
+комплекс,Complex - a system made up of interconnected parts.
+концепция,Concept - a general idea or understanding of something.
+контекст,Context - the circumstances or conditions surrounding a particular event or situation.
+критерий,Criterion - a standard or principle by which something is judged or decided.
+культура,"Culture - the shared beliefs, values, and practices of a group of people."
+лечение,Treatment - the management and care of a patient for the purpose of combating a disease.
+метод,Method - a systematic or established way of doing something.
+механизм,Mechanism - a system of parts working together for a common purpose.
+модернизация,Modernization - the process of adapting something to modern standards or needs.
+молекула,Molecule - the smallest unit of a chemical compound that retains its chemical properties.
+наблюдение,Observation - the action or process of carefully watching something.
+награда,Reward - something given in recognition of one's service or achievement.
+надежда,Hope - the feeling of expectation and desire for a particular thing to happen.
+научение,Learning - the acquisition of knowledge or skills through experience or study.
+неопределенность,Uncertainty - the state of being unsure or unclear about something.
+обеспечение,Provision - the act of providing something necessary for a particular purpose.
+объяснение,Explanation - the process of making something clear or easy to understand.
+означение,Meaning - the idea or concept that a word or phrase expresses.
+опыт,Experience - the knowledge or skills gained from doing something over time.
+организация,Organization - a group of people working together for a common purpose.
+параметр,Parameter - a factor or condition that determines the scope or boundaries of a process.
+перспектива,Perspective - a particular attitude toward or way of viewing something.
+платформа,Platform - a structure or system used for a specific purpose.
+положительный,Positive - having a good or beneficial effect.
+проект,Project - a planned endeavor with a specific goal or purpose.
+психология,Psychology - the scientific study of behavior and mental processes.
+публикация,Publication - the act of releasing information to the public.
+путь,Path - a way or track for walking or travel.
+развитие,Development - the process of growth or improvement over time.
+реализация,Realization - the act of bringing something into reality or making it happen.
+результат,Result - the outcome or effect of an action or event.
+свобода,"Freedom - the power or right to act, speak, or think as one wants."
+система,System - a set of connected things or parts that work together to achieve a specific outcome.
+сотрудничество,Collaboration - the action of working with others to achieve a common goal.
+среда,Environment - the surrounding conditions or factors that affect a particular situation.
+срок,Term - a fixed or limited period of time.
+технология,Technology - the application of scientific knowledge for practical purposes.
+трансформация,Transformation - a thorough or dramatic change in form or appearance.
+университет,University - an institution of higher education and research.
+управление,"Management - the process of planning, organizing, and coordinating resources."
+участие,Participation - the act of taking part in an activity or event.
+фактор,Factor - an element that contributes to a particular result.
+функция,Function - the purpose or role of something.
+химия,Chemistry - the science of substances and their interactions.
+экономика,"Economy - the system of production, consumption, and distribution of goods and services."
+эффективность,Effectiveness - the degree to which something produces the desired result.
+эксперимент,Experiment - a scientific procedure undertaken to test a hypothesis.
+эксперт,Expert - a person with specialized knowledge in a particular field.
+электрон,Electron - a subatomic particle with a negative charge.
+эмоция,Emotion - a natural instinctive state of mind deriving from one's circumstances.
+юриспруденция,Jurisprudence - the theory or philosophy of law.
+абстракция,"Abstraction - the process of thinking about something in a general way, away from specific details."
+адаптировать,Adapt - to change something to make it suitable for a new use or situation.
+алгоритм,Algorithm - a set of rules or instructions for solving a problem or performing a task.
+анализ,Analysis - the process of examining something in detail in order to understand it better.
+антибиотик,Antibiotic - a substance used to treat bacterial infections.
+аппарат,Apparatus - a complex device or mechanism used for a specific purpose.
+архитектура,Architecture - the art and science of designing buildings and structures.
+аспект,Aspect - a particular part or feature of something.
+атмосфера,Atmosphere - the envelope of gases surrounding the Earth or another planet.
+базовый,Basic - relating to the foundation or starting point of something.
+балансировать,Balance - to arrange or adjust the elements in a way that achieves stability.
+безопасность,Safety - the condition of being free from harm or danger.
+бизнес,Business - an organization engaged in the trade of goods or services.
+блок,"Block - a solid piece of material, often used in construction or as a unit of measure."
+блог,"Blog - a regularly updated website, typically written in an informal style."
+борьба,Struggle - to make forceful or violent efforts to get free of restraint or control.
+бухгалтерия,"Accounting - the process of recording, classifying, and summarizing financial transactions."
+век,Century - a period of 100 years.
+влияние,"Influence - the ability to have an effect on the character, development, or behavior of someone."
+воспитание,Upbringing - the care and training of children.
+вопрос,Question - a sentence or phrase used to obtain information.
+вселенная,"Universe - all of space and everything in it, including stars, planets, and galaxies."
+временной,Temporary - lasting for only a limited period of time.
+всех,All - referring to the whole quantity or number of something.
+выполнить,Complete - to finish something successfully.
+возможность,Possibility - a chance or potential for something to happen.
+время,Time - the ongoing sequence of events taking place.
+высокий,High - having a large vertical extent.
+гарантировать,Guarantee - to provide a promise or assurance that something will happen.
+глобальный,Global - relating to the whole world or large-scale systems.
+глобализация,Globalization - the process of businesses or other organizations developing international influence.
+главный,Main - the most important or central element.
+государство,State - a political entity with its own system of governance.
+демократия,Democracy - a system of government where citizens exercise power by voting.
+диагностика,Diagnosis - the process of identifying a disease or condition by examining symptoms.
+должность,Position - a job or role within an organization.
+документ,Document - a written or printed record that provides information.
+доступ,Access - the ability to approach or use something.
+единство,Unity - the state of being united or joined as a whole.
+экономика,"Economy - the system of production, distribution, and consumption of goods and services."
+эффективность,Efficiency - the ability to achieve a goal with minimal wasted effort or resources.
+жизнь,Life - the state of being alive or existence in general.
+задание,Task - a piece of work to be done or completed.
+закон,Law - a system of rules created and enforced by institutions to regulate behavior.
+замечание,Remark - a comment or statement expressing an opinion or observation.
+запрос,Request - an act of asking for something.
+знание,"Knowledge - the facts, information, and skills acquired through experience or education."
+заниматься,Engage - to participate or become involved in something.
+защита,Protection - the act of keeping something safe from harm or danger.
+импульс,Impulse - a sudden strong desire or urge to do something.
+инновация,Innovation - the introduction of something new or a change made to improve something.
+интернет,Internet - a global network of computers and servers used for communication and information sharing.
+интерпретация,Interpretation - the explanation or presentation of something in a particular way.
+исследование,Research - the systematic investigation into a subject to discover facts or principles.
+капитал,Capital - financial assets or resources used for investment.
+класс,Class - a group of people or things that share common characteristics.
+клиент,Client - a person or company that receives a service from a business or professional.
+книга,"Book - a set of written, printed, or blank pages fastened together."
+культура,"Culture - the beliefs, customs, and practices of a particular society or group."
+лаборатория,Laboratory - a room or building equipped for scientific research or experiments.
+лекарство,Medicine - a substance used to treat or prevent illness.
+литература,"Literature - written works, especially those considered of superior or lasting artistic merit."
+логика,Logic - the reasoning conducted or assessed according to strict principles.
+механизм,Mechanism - a system of parts working together to perform a function.
+метод,Method - a way or procedure for doing something.
+модернизация,Modernization - the process of updating or improving something to meet current standards.
+молекула,Molecule - the smallest particle of a chemical compound that retains its chemical properties.
+мозг,"Brain - the organ responsible for thought, memory, and controlling bodily functions."
+модуль,Module - a separate unit or component that can function independently but works with others.
+начало,Beginning - the point in time or space at which something starts.
+наблюдение,Observation - the act of closely watching or monitoring something.
+налог,Tax - a mandatory contribution to government revenue.
+награда,Reward - something given in recognition of one’s achievement or effort.
+надежда,Hope - the expectation of a positive outcome or result.
+наука,Science - the systematic study of the structure and behavior of the natural and physical world.
+необходимость,Necessity - the state of being essential or required.
+обеспечение,Provision - the action of supplying or providing something.
+обсуждение,Discussion - the process of talking about something in order to reach a conclusion or decision.
+отдел,"Department - a distinct part of a larger organization, often with specific responsibilities."
+организация,Organization - an arrangement of elements or people that are systematically coordinated.
+опыт,Experience - the knowledge or skills gained through participation in activities.
+параметр,Parameter - a limit or boundary that defines the scope or nature of something.
+план,Plan - a detailed proposal for achieving a specific goal.
+польза,Benefit - the advantage or good that comes from something.
+проблема,Problem - a question or situation that requires a solution.
+прогресс,Progress - forward movement toward a destination or goal.
+проект,Project - an individual or collaborative effort to produce something.
+протокол,Protocol - a set of rules or guidelines for communication and procedures.
+психология,Psychology - the scientific study of the mind and behavior.
+публикация,Publication - the process of producing and distributing written works.
+путь,Path - a route or course along which one travels.
+регулировать,Regulate - to control or maintain the rate or speed of something.
+ресурс,Resource - a supply or source of materials or information that can be used.
+система,System - a set of things working together as parts of a mechanism or an interconnecting network.
+среда,Environment - the surroundings or conditions in which something exists or operates.
+способность,Ability - the power or skill to do something.
+стратегия,Strategy - a plan of action designed to achieve a particular goal.
+судебный,Judicial - relating to the courts or the administration of justice.
+сфера,Sphere - a field or area of expertise or interest.
+система,System - a collection of components or elements working together to form a complex whole.
+технология,Technology - the application of scientific knowledge for practical purposes.
+тест,Test - an examination or trial to measure knowledge or performance.
+традиция,Tradition - the transmission of customs or beliefs from one generation to the next.
+тренировка,Training - the process of developing skills or abilities through practice.
+управление,"Management - the process of planning, organizing, and controlling resources to achieve objectives."
+уровень,Level - a specific height or stage in a series of steps.
+фактор,Factor - an element or component that contributes to an outcome or result.
+функция,Function - a task or activity performed by something or someone.
+целевой,Targeted - directed toward a particular goal or objective.
+экономика,"Economy - the system of production, distribution, and consumption of goods and services."
