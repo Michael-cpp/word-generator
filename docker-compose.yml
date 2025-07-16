@@ -1,0 +1,32 @@
+services:
+  word_bot_interactive:
+    image: python:3.11-slim
+    container_name: word_bot_interactive
+    working_dir: /app
+    volumes:
+      - ./data:/app/data
+      - .:/app
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    command: >
+      sh -c "
+        pip install --no-cache-dir python-telegram-bot==20.6 apscheduler &&
+        python interactive_bot.py
+      "
+    restart: unless-stopped
+
+  word_bot_daily:
+    image: python:3.11-slim
+    container_name: word_bot_daily
+    working_dir: /app
+    volumes:
+      - ./data:/app/data
+      - .:/app
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    command: >
+      sh -c "
+        pip install --no-cache-dir python-telegram-bot==20.6 apscheduler &&
+        python daily_sender_bot.py
+      "
+    restart: unless-stopped
