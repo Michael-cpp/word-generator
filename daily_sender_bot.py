@@ -1,6 +1,7 @@
 from telegram import Bot
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from utils import pop_random_word, load_users
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 import os
 import asyncio
@@ -16,9 +17,14 @@ async def send_daily_word():
 
     users = load_users()
     print(f"Loaded users: {users}")
+
+    # Create the same inline keyboard as in the interactive bot
+    keyboard = [[InlineKeyboardButton("Generate Another", callback_data='generate')]]
+    markup = InlineKeyboardMarkup(keyboard)
+
     for chat_id in users:
         try:
-            await bot.send_message(chat_id=chat_id, text=word)
+            await bot.send_message(chat_id=chat_id, text=word, reply_markup=markup)
             print(f"Sent word to {chat_id}")
         except Exception as e:
             print(f"Failed to send to {chat_id}: {e}")
