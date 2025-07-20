@@ -28,7 +28,7 @@ async def main():
     
     # Initialize scheduler
     scheduler = AsyncIOScheduler()
-    scheduler.add_job(send_daily_word, 'interval', minutes=1)
+    scheduler.add_job(send_daily_word, 'cron', hour=9)
     scheduler.start()
 
     # Run the event loop
