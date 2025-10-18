@@ -66,7 +66,12 @@ word-generator/
    echo "BOT_TOKEN=your_telegram_bot_token_here" > .env
    ```
 
-3. **Run with Docker Compose:**
+3. **Create a dictionary**
+   ```bash
+   cp words.example words.csv
+   ```
+
+4. **Run with Docker Compose:**
    ```bash
    docker-compose up -d
    ```
