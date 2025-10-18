@@ -1,4 +1,4 @@
 .env
 users.json
 __pycache__/
-./data/words.csv
+data/words.csv
