@@ -1,6 +1,6 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
-from utils import pop_random_word, save_user
+from utils import get_word_message, save_user
 
 import os
 
@@ -21,7 +21,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
 
-    word = pop_random_word()
+    word = get_word_message()
     text = word if word else "❌ No more words left!"
 
     keyboard = [[InlineKeyboardButton("Generate Another", callback_data='generate')]]

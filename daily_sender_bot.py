@@ -1,6 +1,6 @@
 from telegram import Bot
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from utils import pop_random_word, load_users
+from utils import get_word_message, load_users
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 import os
@@ -10,7 +10,7 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 bot = Bot(token=BOT_TOKEN)
 
 async def send_daily_word():
-    word = pop_random_word()
+    word = get_word_message()
     if not word:
         print("No word to send.")
         return
