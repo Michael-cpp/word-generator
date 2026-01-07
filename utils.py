@@ -2,13 +2,13 @@ import json
 import os
 import requests
 from deep_translator import GoogleTranslator
-import pymorphy2
+import pymorphy3
 
 ASSOCI_API = "https://associ.ru/api/v1/play"
 USERS_FILE = '/app/data/users.json'
 
 translator = GoogleTranslator(source="ru", target="en")
-morph = pymorphy2.MorphAnalyzer()
+morph = pymorphy3.MorphAnalyzer()
 
 def get_random_russian_word() -> str:
     response = requests.get(ASSOCI_API, timeout=5)

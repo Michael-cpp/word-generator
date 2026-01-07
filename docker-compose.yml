@@ -11,7 +11,7 @@ services:
       - BOT_TOKEN=${BOT_TOKEN}
     command: >
       sh -c "
-        pip install --no-cache-dir python-telegram-bot==20.6 apscheduler deep-translator requests pymorphy2 &&
+        pip install --no-cache-dir python-telegram-bot==20.6 apscheduler deep-translator requests pymorphy3 &&
         python -u interactive_bot.py
       "
     restart: unless-stopped
@@ -27,7 +27,7 @@ services:
       - BOT_TOKEN=${BOT_TOKEN}
     command: >
       sh -c "
-        pip install --no-cache-dir python-telegram-bot==20.6 apscheduler deep-translator requests pymorphy2 &&
+        pip install --no-cache-dir python-telegram-bot==20.6 apscheduler deep-translator requests pymorphy3 &&
         python -u daily_sender_bot.py
       "
     restart: unless-stopped
