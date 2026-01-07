@@ -18,16 +18,20 @@ def get_random_russian_word() -> str:
             timeout=5
         )
         response.raise_for_status()
-        return response.json().get("new", "—")
+        data = response.json()
+        ru_word = data.get("new", {}).get("word")
+        if not isinstance(ru_word, str):
+            print(f"Unexpected API response: {data}")
+        return ru_word
     except requests.RequestException as e:
-        return "Random word service unavailable"
+        print("Random word service unavailable")
 
 
 def translate_ru_to_en(word: str) -> str:
     try:
         return translator.translate(word)
     except Exception:
-        return "Translation unavailable"
+        print("Translation service unavailable")
 
 
 def get_word_message() -> str:
