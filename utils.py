@@ -11,7 +11,7 @@ translator = GoogleTranslator(source="ru", target="en")
 morph = pymorphy3.MorphAnalyzer()
 
 def get_random_russian_word() -> str:
-    response = requests.get(ASSOCI_API, timeout=5)
+    response = requests.post(ASSOCI_API, timeout=5)
     response.raise_for_status()
     return response.json()["new"]
 
