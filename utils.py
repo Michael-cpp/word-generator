@@ -1,28 +1,40 @@
-import csv
 import json
-import random
 import os
+import requests
+from deep_translator import GoogleTranslator
+import pymorphy2
 
-CSV_PATH = '/app/data/words.csv'
+ASSOCI_API = "https://associ.ru/api/v1/play"
 USERS_FILE = '/app/data/users.json'
 
-def pop_random_word():
-    if not os.path.exists(CSV_PATH):
-        return None
-    with open(CSV_PATH, newline='', encoding='utf-8') as csvfile:
-        words = list(csv.DictReader(csvfile))
-    if not words:
-        return None
+translator = GoogleTranslator(source="ru", target="en")
+morph = pymorphy2.MorphAnalyzer()
 
-    selected = random.choice(words)
-    remaining = [w for w in words if w != selected]
+def get_random_russian_word() -> str:
+    response = requests.get(ASSOCI_API, timeout=5)
+    response.raise_for_status()
+    return response.json()["new"]
 
-    with open(CSV_PATH, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=['word', 'description'])
-        writer.writeheader()
-        writer.writerows(remaining)
 
-    return f"📖 {selected['word']}\n{selected['description']}"
+def translate_ru_to_en(word: str) -> str:
+    try:
+        return translator.translate(word)
+    except Exception:
+        return "Translation unavailable"
+
+
+def get_word_message() -> str:
+    ru_word = get_random_russian_word()
+
+    # normalize word form (important!)
+    ru_normalized = morph.parse(ru_word)[0].normal_form
+
+    en_translation = translate_ru_to_en(ru_normalized)
+
+    return (
+        f"📖 {ru_normalized}\n"
+        f"🇬🇧 {en_translation}"
+    )
 
 def save_user(chat_id):
     users = load_users()
