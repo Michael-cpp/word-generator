@@ -1,6 +1,6 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
-from utils import get_word_message, save_user
+from utils import get_word_message, load_users
 
 import os
 
@@ -8,8 +8,9 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-    save_user(chat_id)
-    
+    if chat_id not in load_users():
+        return
+
     keyboard = [[InlineKeyboardButton("Generate", callback_data='generate')]]
     markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
@@ -21,6 +22,10 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
 
+    chat_id = query.message.chat_id
+    if chat_id not in load_users():
+        return
+
     word = get_word_message()
     text = word if word else "❌ No more words left!"
 
@@ -28,7 +33,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     markup = InlineKeyboardMarkup(keyboard)
 
     await context.bot.send_message(
-        chat_id=query.message.chat_id,
+        chat_id=chat_id,
         text=text,
         reply_markup=markup
     )

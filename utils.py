@@ -47,13 +47,6 @@ def get_word_message() -> str:
         f"🇬🇧 {en_translation}"
     )
 
-def save_user(chat_id):
-    users = load_users()
-    if chat_id not in users:
-        users.append(chat_id)
-        with open(USERS_FILE, 'w') as f:
-            json.dump(users, f)
-
 def load_users():
     if not os.path.exists(USERS_FILE):
         return []
