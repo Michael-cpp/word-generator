@@ -41,6 +41,15 @@ word-generator/
 - `save_user()`: Registers new users
 - `load_users()`: Retrieves list of registered users
 
+### Broadcast (`broadcast.py`)
+Sends a one-off message to all users in `data/users.json`. Run it inside the bot container on the server:
+
+```bash
+sudo docker exec -w /app word_bot_interactive python broadcast.py "Message text" --dry-run   # preview
+sudo docker exec -w /app word_bot_interactive python broadcast.py "Message text" --to 12345  # test on one chat
+sudo docker exec -w /app word_bot_interactive python broadcast.py "Message text"             # send to everyone
+```
+
 ## Setup & Installation
 
 ### Prerequisites
